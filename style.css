@@ -1,0 +1,96 @@
+.announcement {
+    background-color: deepskyblue;
+}
+#marqueeStyle {
+    font-size: 20;
+    color: white;
+}
+#details {
+    padding-left: 25;
+}
+#map {
+    padding-left: 75;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    height:300%;
+}
+
+.travel_mainDiv hr{
+    width: 100%;
+}
+
+.travel_mainDiv h5 , .travel_mainDiv p{
+    margin-left: 20px;
+}
+.Contact_1 {
+    float: left;
+    width: 33.33%;
+    padding: -20px;
+    border: 1px solid #c7c7c7;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.Contact_1 img {
+    width: 100%;
+    height:300%;
+}
+
+.Contact_1 hr{
+    width: 100%;
+}
+
+.Contact_1 h5 , .Contact_1 p{
+    margin-left: 20px;
+}
+#acheivementsID {
+    padding-bottom: 10px;
+}
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+.movie_head i {
+    float: right;
+}
+.movie_text span {
+    color: #ff7700;
+}
+.whats_new
+{
+  margin-top: 13px;
+}
+
+.whats_new h4
+{
+    border-bottom: 1px solid white;
+    padding: 8px;
+}
+
+.whats_new img
+{
+  border-radius: 25px;
+}
+
+.whats_new p
+{
+  margin-top:10px;
+}
